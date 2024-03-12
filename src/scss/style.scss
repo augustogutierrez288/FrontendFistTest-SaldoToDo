@@ -1,0 +1,25 @@
+//root
+@import "./root";
+//body
+@import "./body";
+//home page
+@import "./home-page";
+//form login component
+@import "./login-form";
+//loading component
+@import "./loading-component";
+//SYSTEMS
+@import "./aside-systems";
+// => page home
+@import "./systems-page";
+@import "./header-home-systems";
+@import "./main-home-systems";
+@import "./items-home";
+// => page actives
+@import "./header-actives-systems";
+@import "./main-actives-systems";
+@import "./items-actives";
+// => page actives rates
+@import "./header-rates-systems";
+// => page not found
+@import "./pagenotfound";

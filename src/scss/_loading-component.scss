@@ -1,0 +1,56 @@
+/**
+  * Scaling dots
+  *
+  * @author jh3y
+*/
+@-webkit-keyframes scaling-dots {
+    0%, 100% {
+      -webkit-transform: scale(0);
+              transform: scale(0); }
+    40%, 60% {
+      -webkit-transform: scale(1);
+              transform: scale(1); } }
+  @keyframes scaling-dots {
+    0%, 100% {
+      -webkit-transform: scale(0);
+              transform: scale(0); }
+    40%, 60% {
+      -webkit-transform: scale(1);
+              transform: scale(1); } }
+  
+.scaling-dots {
+        width: 65.157px;
+        height: 26.406px;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(5, 10px); 
+        div {
+                height: 10px;
+                width: 10px; 
+                background-color: #00634b;
+                border-radius: 100%;
+                -webkit-animation: scaling-dots 1s infinite ease backwards;
+                        animation: scaling-dots 1s infinite ease backwards;
+                &:nth-child(1) {
+                -webkit-animation-delay: 0.1s;
+                        animation-delay: 0.1s; 
+                }
+                &:nth-child(2) {
+                -webkit-animation-delay: 0.2s;
+                        animation-delay: 0.2s; 
+                }
+                &:nth-child(3) {
+                -webkit-animation-delay: 0.3s;
+                        animation-delay: 0.3s; 
+                }
+                &:nth-child(4) {
+                -webkit-animation-delay: 0.4s;
+                        animation-delay: 0.4s; 
+                }
+                &:nth-child(5) {
+                -webkit-animation-delay: 0.5s;
+                        animation-delay: 0.5s; 
+                }
+        }
+}
+       
